@@ -45,10 +45,15 @@ Declare results based on highest votes
 ##🏗️ Project Structure
 VotingSystem.java
 │
+
 ├── Voter           # Handles voter registration and voting
+
 ├── candidate       # Stores candidate details and vote count
+
 ├── Election        # Manages candidates and election results
+
 ├── VoteRecord      # (Placeholder) for storing vote logs
+
 └── VotingSystem    # Main class (execution starts here)
 
 ---
@@ -67,7 +72,9 @@ Input	Action
 4	Declare Result
 Other	Exit
 
-⚠️ Known Issues / Limitations
+---
+
+##⚠️ Known Issues / Limitations
 
 Candidate objects are not centrally managed (design limitation)
 Voting currently does not map correctly to stored candidates
@@ -75,7 +82,9 @@ declareResult() may return incorrect results due to object handling
 No persistence (data lost after program ends)
 Minimal validation and error handling
 
-🔧 Possible Improvements
+---
+
+##🔧 Possible Improvements
 
 Maintain a centralized candidate list
 Fix vote mapping to actual candidate objects
@@ -85,7 +94,9 @@ Build REST API using Spring Boot
 Add frontend (React / Web UI)
 Implement authentication & security
 
-📚 Concepts Used
+---
+
+##📚 Concepts Used
 
 Classes and Objects
 Inheritance (Election extends candidate)
@@ -93,7 +104,9 @@ Encapsulation (private variables + methods)
 Collections (ArrayList)
 Control flow and loops
 
-🎯 Purpose
+---
+
+##🎯 Purpose
 
 This project is intended for:
 
@@ -101,7 +114,9 @@ Learning OOP design in Java
 Practicing system-level problem solving
 Demonstrating coding skills in assessments/interviews
 
-👨‍💻 Author
+---
+
+##👨‍💻 Author
 
 Sai Aravind
 Computer Science Student
