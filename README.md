@@ -1,44 +1,48 @@
 # MrCooper_Long_Code_assement
-🗳️ Voting System (Java – OOP Based)
+#🗳️ Voting System (Java – OOP Based)
 
-📌 Overview
+##📌 Overview
 
 This project is a simple Voting System implemented in Java using Object-Oriented Programming concepts. It simulates core functionalities of an election process including voter registration, candidate management, voting, and result declaration.
 
 The system was developed as part of a coding assessment to demonstrate understanding of:
 
-OOP principles (Encapsulation, Inheritance)
-Basic data structures (ArrayList)
-Input handling using Scanner
-System design for real-world scenarios
+- OOP principles (Encapsulation, Inheritance)
+- Basic data structures (ArrayList)
+- Input handling using Scanner
+- System design for real-world scenarios
 
-⚙️ Features
+--- 
 
-👤 Voter Management
+##⚙️ Features
+
+###👤 Voter Management
 
 Register voters with ID, name, and age
 Eligibility check (must be 18+)
 Prevent duplicate or invalid registrations
 Track voting status (voted / not voted)
 
-🧑‍💼 Candidate Management
+###🧑‍💼 Candidate Management
 
 Add candidates with ID, name, and party
 Maintain candidate list for election
 
-🗳️ Voting Process
+###🗳️ Voting Process
 
 Voters can cast their vote
 Prevent multiple voting by the same voter
 Vote count maintained per candidate
 
-📊 Election Management
+###📊 Election Management
 
 Create election with start and end dates
 Add candidates to election
 Declare results based on highest votes
 
-🏗️ Project Structure
+---
+
+##🏗️ Project Structure
 VotingSystem.java
 │
 ├── Voter           # Handles voter registration and voting
@@ -47,7 +51,9 @@ VotingSystem.java
 ├── VoteRecord      # (Placeholder) for storing vote logs
 └── VotingSystem    # Main class (execution starts here)
 
-▶️ How to Run
+---
+
+##▶️ How to Run
 
 Compile the program:
 javac VotingSystem.java
